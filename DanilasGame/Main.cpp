@@ -1,4 +1,7 @@
 #include "DanilasGame.h"
+#include <Windows.h>
+
+
 
 int main()
 {
@@ -11,10 +14,10 @@ int main()
 	Test.Create_Player();
 
 	Test.Move_Player();
-
+	//
 	Test.Move_Enemy();
 
 	Test.Move_Gun();
 
-
+	
 }
